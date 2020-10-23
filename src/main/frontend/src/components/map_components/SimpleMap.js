@@ -55,7 +55,7 @@ export default class SimpleMap extends Component {
                     selectedMarker={this.state.selectedMarker}
                     markers={this.state.shelters}
                     onClick={this.handleClick}
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-6rh4LErjM96t6CVB8YZHIIaGEvxk3BI"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY"
                     loadingElement={<div style={{ height: `100%` }} />}
                     containerElement={<div style={{ height: `400px` }} />}
                     mapElement={<div style={{ height: `100%` }} />}
